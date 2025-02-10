@@ -1,0 +1,9 @@
+DIM __ARRAY_VAR__(3, 4) AS INTEGER
+
+__ARRAY_VAR__(0, 0) = 1
+__ARRAY_VAR__(1, 1) = 2
+__ARRAY_VAR__(2, 2) = 3
+__ARRAY_VAR__(3, 4) = 4
+
+PRINT "LOWER BOUND OF __ARRAY_VAR__(0, 0) = " & LBOUND(__ARRAY_VAR__, 1); ", " & LBOUND(__ARRAY_VAR__, 2)
+PRINT "UPPER BOUND OF __ARRAY_VAR__(3, 4) = " & UBOUND(__ARRAY_VAR__, 1); ", " & UBOUND(__ARRAY_VAR__, 2)

@@ -1,0 +1,9 @@
+DIM __VAR_I__ AS INTEGER
+
+FOR __VAR_I__ = 1 TO 5
+	PRINT "ITERATION: "; __VAR_I__
+NEXT __VAR_I__
+
+FOR __VAR_I__ = 1 TO 10 STEP 2
+    PRINT "ODD NUMBER: "; __VAR_I__
+NEXT __VAR_I__

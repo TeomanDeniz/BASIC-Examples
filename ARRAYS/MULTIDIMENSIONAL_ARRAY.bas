@@ -1,0 +1,14 @@
+DIM __ARRAY_VAR__(2, 2) AS INTEGER
+DIM X AS INTEGER
+DIM Y AS INTEGER
+
+__ARRAY_VAR__(0, 0) = 1
+__ARRAY_VAR__(0, 1) = 2
+__ARRAY_VAR__(1, 0) = 3
+__ARRAY_VAR__(1, 1) = 4
+
+FOR X = 0 TO 1
+	FOR Y = 0 TO 1
+		PRINT "__ARRAY_VAR__(" & Y & "," & X & ") = " & __ARRAY_VAR__(Y, X)
+	NEXT Y
+NEXT X
